@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042446E71D9D13DD0088630F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042446E61D9D13DD0088630F /* AppDelegate.swift */; };
+		042446E91D9D13DD0088630F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042446E81D9D13DD0088630F /* ViewController.swift */; };
+		042446EC1D9D13DD0088630F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042446EA1D9D13DD0088630F /* Main.storyboard */; };
+		042446EE1D9D13DD0088630F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042446ED1D9D13DD0088630F /* Assets.xcassets */; };
+		042446F11D9D13DD0088630F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042446EF1D9D13DD0088630F /* LaunchScreen.storyboard */; };
+		042446FC1D9D13DD0088630F /* tabbar___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042446FB1D9D13DD0088630F /* tabbar___Tests.swift */; };
+		042447071D9D13DD0088630F /* tabbar___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042447061D9D13DD0088630F /* tabbar___UITests.swift */; };
+		042447161D9D14140088630F /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042447151D9D14140088630F /* OneViewController.swift */; };
+		042447181D9D141B0088630F /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042447171D9D141B0088630F /* TwoViewController.swift */; };
+		0424471A1D9D14230088630F /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042447191D9D14230088630F /* ThreeViewController.swift */; };
+		0424471C1D9D142E0088630F /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424471B1D9D142E0088630F /* FourViewController.swift */; };
+		0424471E1D9D16150088630F /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424471D1D9D16150088630F /* TabbarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042446F81D9D13DD0088630F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042446DB1D9D13DD0088630F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042446E21D9D13DD0088630F;
+			remoteInfo = "tabbar的搭建";
+		};
+		042447031D9D13DD0088630F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042446DB1D9D13DD0088630F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042446E21D9D13DD0088630F;
+			remoteInfo = "tabbar的搭建";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042446E31D9D13DD0088630F /* tabbar的搭建.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tabbar的搭建.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042446E61D9D13DD0088630F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042446E81D9D13DD0088630F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		042446EB1D9D13DD0088630F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042446ED1D9D13DD0088630F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042446F01D9D13DD0088630F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042446F21D9D13DD0088630F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../tabbar的搭建/Info.plist"; sourceTree = "<group>"; };
+		042446F71D9D13DD0088630F /* tabbar的搭建Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tabbar的搭建Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042446FB1D9D13DD0088630F /* tabbar___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "tabbar___Tests.swift"; sourceTree = "<group>"; };
+		042446FD1D9D13DD0088630F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042447021D9D13DD0088630F /* tabbar的搭建UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tabbar的搭建UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042447061D9D13DD0088630F /* tabbar___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "tabbar___UITests.swift"; sourceTree = "<group>"; };
+		042447081D9D13DD0088630F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042447151D9D14140088630F /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		042447171D9D141B0088630F /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		042447191D9D14230088630F /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		0424471B1D9D142E0088630F /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		0424471D1D9D16150088630F /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042446E01D9D13DD0088630F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042446F41D9D13DD0088630F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042446FF1D9D13DD0088630F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042446DA1D9D13DD0088630F = {
+			isa = PBXGroup;
+			children = (
+				042446E51D9D13DD0088630F /* tabbar的搭建 */,
+				042446FA1D9D13DD0088630F /* tabbar的搭建Tests */,
+				042447051D9D13DD0088630F /* tabbar的搭建UITests */,
+				042446E41D9D13DD0088630F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042446E41D9D13DD0088630F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042446E31D9D13DD0088630F /* tabbar的搭建.app */,
+				042446F71D9D13DD0088630F /* tabbar的搭建Tests.xctest */,
+				042447021D9D13DD0088630F /* tabbar的搭建UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042446E51D9D13DD0088630F /* tabbar的搭建 */ = {
+			isa = PBXGroup;
+			children = (
+				042446E61D9D13DD0088630F /* AppDelegate.swift */,
+				042446E81D9D13DD0088630F /* ViewController.swift */,
+				0424471D1D9D16150088630F /* TabbarViewController.swift */,
+				042447141D9D13F70088630F /* ChildViewController */,
+				042446ED1D9D13DD0088630F /* Assets.xcassets */,
+			);
+			path = "tabbar的搭建";
+			sourceTree = "<group>";
+		};
+		042446FA1D9D13DD0088630F /* tabbar的搭建Tests */ = {
+			isa = PBXGroup;
+			children = (
+				042446EA1D9D13DD0088630F /* Main.storyboard */,
+				042446F21D9D13DD0088630F /* Info.plist */,
+				042446EF1D9D13DD0088630F /* LaunchScreen.storyboard */,
+				042446FB1D9D13DD0088630F /* tabbar___Tests.swift */,
+				042446FD1D9D13DD0088630F /* Info.plist */,
+			);
+			path = "tabbar的搭建Tests";
+			sourceTree = "<group>";
+		};
+		042447051D9D13DD0088630F /* tabbar的搭建UITests */ = {
+			isa = PBXGroup;
+			children = (
+				042447061D9D13DD0088630F /* tabbar___UITests.swift */,
+				042447081D9D13DD0088630F /* Info.plist */,
+			);
+			path = "tabbar的搭建UITests";
+			sourceTree = "<group>";
+		};
+		042447141D9D13F70088630F /* ChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				042447151D9D14140088630F /* OneViewController.swift */,
+				042447171D9D141B0088630F /* TwoViewController.swift */,
+				042447191D9D14230088630F /* ThreeViewController.swift */,
+				0424471B1D9D142E0088630F /* FourViewController.swift */,
+			);
+			name = ChildViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042446E21D9D13DD0088630F /* tabbar的搭建 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0424470B1D9D13DD0088630F /* Build configuration list for PBXNativeTarget "tabbar的搭建" */;
+			buildPhases = (
+				042446DF1D9D13DD0088630F /* Sources */,
+				042446E01D9D13DD0088630F /* Frameworks */,
+				042446E11D9D13DD0088630F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tabbar的搭建";
+			productName = "tabbar的搭建";
+			productReference = 042446E31D9D13DD0088630F /* tabbar的搭建.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042446F61D9D13DD0088630F /* tabbar的搭建Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0424470E1D9D13DD0088630F /* Build configuration list for PBXNativeTarget "tabbar的搭建Tests" */;
+			buildPhases = (
+				042446F31D9D13DD0088630F /* Sources */,
+				042446F41D9D13DD0088630F /* Frameworks */,
+				042446F51D9D13DD0088630F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042446F91D9D13DD0088630F /* PBXTargetDependency */,
+			);
+			name = "tabbar的搭建Tests";
+			productName = "tabbar的搭建Tests";
+			productReference = 042446F71D9D13DD0088630F /* tabbar的搭建Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		042447011D9D13DD0088630F /* tabbar的搭建UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042447111D9D13DD0088630F /* Build configuration list for PBXNativeTarget "tabbar的搭建UITests" */;
+			buildPhases = (
+				042446FE1D9D13DD0088630F /* Sources */,
+				042446FF1D9D13DD0088630F /* Frameworks */,
+				042447001D9D13DD0088630F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042447041D9D13DD0088630F /* PBXTargetDependency */,
+			);
+			name = "tabbar的搭建UITests";
+			productName = "tabbar的搭建UITests";
+			productReference = 042447021D9D13DD0088630F /* tabbar的搭建UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042446DB1D9D13DD0088630F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					042446E21D9D13DD0088630F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					042446F61D9D13DD0088630F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 042446E21D9D13DD0088630F;
+					};
+					042447011D9D13DD0088630F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 042446E21D9D13DD0088630F;
+					};
+				};
+			};
+			buildConfigurationList = 042446DE1D9D13DD0088630F /* Build configuration list for PBXProject "tabbar的搭建" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042446DA1D9D13DD0088630F;
+			productRefGroup = 042446E41D9D13DD0088630F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042446E21D9D13DD0088630F /* tabbar的搭建 */,
+				042446F61D9D13DD0088630F /* tabbar的搭建Tests */,
+				042447011D9D13DD0088630F /* tabbar的搭建UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042446E11D9D13DD0088630F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042446F11D9D13DD0088630F /* LaunchScreen.storyboard in Resources */,
+				042446EE1D9D13DD0088630F /* Assets.xcassets in Resources */,
+				042446EC1D9D13DD0088630F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042446F51D9D13DD0088630F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042447001D9D13DD0088630F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042446DF1D9D13DD0088630F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042447161D9D14140088630F /* OneViewController.swift in Sources */,
+				042446E91D9D13DD0088630F /* ViewController.swift in Sources */,
+				0424471E1D9D16150088630F /* TabbarViewController.swift in Sources */,
+				0424471C1D9D142E0088630F /* FourViewController.swift in Sources */,
+				042446E71D9D13DD0088630F /* AppDelegate.swift in Sources */,
+				042447181D9D141B0088630F /* TwoViewController.swift in Sources */,
+				0424471A1D9D14230088630F /* ThreeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042446F31D9D13DD0088630F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042446FC1D9D13DD0088630F /* tabbar___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042446FE1D9D13DD0088630F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042447071D9D13DD0088630F /* tabbar___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042446F91D9D13DD0088630F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042446E21D9D13DD0088630F /* tabbar的搭建 */;
+			targetProxy = 042446F81D9D13DD0088630F /* PBXContainerItemProxy */;
+		};
+		042447041D9D13DD0088630F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042446E21D9D13DD0088630F /* tabbar的搭建 */;
+			targetProxy = 042447031D9D13DD0088630F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		042446EA1D9D13DD0088630F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042446EB1D9D13DD0088630F /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../tabbar的搭建";
+			sourceTree = "<group>";
+		};
+		042446EF1D9D13DD0088630F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042446F01D9D13DD0088630F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = "../tabbar的搭建";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042447091D9D13DD0088630F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0424470A1D9D13DD0088630F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0424470C1D9D13DD0088630F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tabbar的搭建/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhourouxin.www.tabbar---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0424470D1D9D13DD0088630F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tabbar的搭建/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhourouxin.www.tabbar---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0424470F1D9D13DD0088630F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tabbar的搭建Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhourouxin.www.tabbar---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabbar的搭建.app/tabbar的搭建";
+			};
+			name = Debug;
+		};
+		042447101D9D13DD0088630F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tabbar的搭建Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhourouxin.www.tabbar---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabbar的搭建.app/tabbar的搭建";
+			};
+			name = Release;
+		};
+		042447121D9D13DD0088630F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "tabbar的搭建UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhourouxin.www.tabbar---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "tabbar的搭建";
+			};
+			name = Debug;
+		};
+		042447131D9D13DD0088630F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "tabbar的搭建UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhourouxin.www.tabbar---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "tabbar的搭建";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042446DE1D9D13DD0088630F /* Build configuration list for PBXProject "tabbar的搭建" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042447091D9D13DD0088630F /* Debug */,
+				0424470A1D9D13DD0088630F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0424470B1D9D13DD0088630F /* Build configuration list for PBXNativeTarget "tabbar的搭建" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0424470C1D9D13DD0088630F /* Debug */,
+				0424470D1D9D13DD0088630F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0424470E1D9D13DD0088630F /* Build configuration list for PBXNativeTarget "tabbar的搭建Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0424470F1D9D13DD0088630F /* Debug */,
+				042447101D9D13DD0088630F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		042447111D9D13DD0088630F /* Build configuration list for PBXNativeTarget "tabbar的搭建UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042447121D9D13DD0088630F /* Debug */,
+				042447131D9D13DD0088630F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042446DB1D9D13DD0088630F /* Project object */;
+}
